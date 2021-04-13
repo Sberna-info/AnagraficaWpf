@@ -1,0 +1,15 @@
+C:\Users\admin\source\repos\AnagraficaWpf\AnagraficaWpf\bin\Debug\AnagraficaWpf.exe.config
+C:\Users\admin\source\repos\AnagraficaWpf\AnagraficaWpf\bin\Debug\AnagraficaWpf.exe
+C:\Users\admin\source\repos\AnagraficaWpf\AnagraficaWpf\bin\Debug\AnagraficaWpf.pdb
+C:\Users\admin\source\repos\AnagraficaWpf\AnagraficaWpf\obj\Debug\AnagraficaWpf.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\AnagraficaWpf\AnagraficaWpf\obj\Debug\MainWindow.g.cs
+C:\Users\admin\source\repos\AnagraficaWpf\AnagraficaWpf\obj\Debug\App.g.cs
+C:\Users\admin\source\repos\AnagraficaWpf\AnagraficaWpf\obj\Debug\AnagraficaWpf_MarkupCompile.cache
+C:\Users\admin\source\repos\AnagraficaWpf\AnagraficaWpf\obj\Debug\AnagraficaWpf_MarkupCompile.lref
+C:\Users\admin\source\repos\AnagraficaWpf\AnagraficaWpf\obj\Debug\MainWindow.baml
+C:\Users\admin\source\repos\AnagraficaWpf\AnagraficaWpf\obj\Debug\AnagraficaWpf.g.resources
+C:\Users\admin\source\repos\AnagraficaWpf\AnagraficaWpf\obj\Debug\AnagraficaWpf.Properties.Resources.resources
+C:\Users\admin\source\repos\AnagraficaWpf\AnagraficaWpf\obj\Debug\AnagraficaWpf.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\AnagraficaWpf\AnagraficaWpf\obj\Debug\AnagraficaWpf.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\AnagraficaWpf\AnagraficaWpf\obj\Debug\AnagraficaWpf.exe
+C:\Users\admin\source\repos\AnagraficaWpf\AnagraficaWpf\obj\Debug\AnagraficaWpf.pdb
