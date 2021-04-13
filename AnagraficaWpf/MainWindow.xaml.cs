@@ -23,6 +23,8 @@ namespace AnagraficaWpf
         public MainWindow()
         {
             InitializeComponent();
+            
+            
         }
 
         private void bntSaluta_Click(object sender, RoutedEventArgs e)
@@ -99,6 +101,9 @@ namespace AnagraficaWpf
 
         private void rdbCalcio_Checked(object sender, RoutedEventArgs e)
         {
+            rdbJuve.IsChecked = true;
+            rdbSir.IsChecked = false;
+            rdbPhelps.IsChecked = false;
             rdbBarce.IsEnabled = true;
             rdbJuve.IsEnabled = true;
             rdbReal.IsEnabled = true;
@@ -117,6 +122,9 @@ namespace AnagraficaWpf
 
         private void rdbNuoto_Checked(object sender, RoutedEventArgs e)
         {
+            rdbSir.IsChecked = false;
+            rdbPhelps.IsChecked = true;
+            rdbJuve.IsChecked = false;
             rdbLedecky.IsEnabled = true;
             rdbPellegrini.IsEnabled = true;
             rdbPhelps.IsEnabled = true;
@@ -135,6 +143,9 @@ namespace AnagraficaWpf
 
         private void rdbPallavolo_Checked(object sender, RoutedEventArgs e)
         {
+            rdbPhelps.IsChecked = false;
+            rdbJuve.IsChecked = false;
+            rdbSir.IsChecked = true;
             rdbModena.IsEnabled = true;
             rdbSir.IsEnabled = true;
             rdbTreviso.IsEnabled = true;
