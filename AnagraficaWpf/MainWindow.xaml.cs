@@ -27,12 +27,12 @@ namespace AnagraficaWpf
 
         private void bntSaluta_Click(object sender, RoutedEventArgs e)
         {
-            if (txtCognome.Text != "" && txtEta.Text != "" && txtNome.Text != "")
+            if (txtCognome.Text != "" || txtEta.Text != "" || txtNome.Text != "")
             {
                 try
                 {
-                    string nome = Convert.ToString(txtNome.Text);
-                    string cognome = Convert.ToString(txtCognome.Text);
+                    string nome = txtNome.Text;
+                    string cognome = txtCognome.Text;
                     int eta = int.Parse(txtEta.Text);
                     if (eta < 20)
                         MessageBox.Show("Non sei abbastanza grande", "Attenzione", MessageBoxButton.OK, MessageBoxImage.Information);
@@ -43,45 +43,45 @@ namespace AnagraficaWpf
 
                             if(rdbBarce.IsChecked == true)
                             {
-                                MessageBox.Show($"Sei {nome} {cognome} hai {eta} anni e la tua squadra preferita di calcio è il barcellona.", "Informazione", MessageBoxButton.OK, MessageBoxImage.Information);
+                                MessageBox.Show($"Sei {nome} {cognome} hai {eta} anni e la tua squadra preferita di calcio è il barcellona.", "RIEPILOGO");
                             }
                             else if(rdbReal.IsChecked == true)
                             {
-                                MessageBox.Show($"Sei {nome} {cognome} hai {eta} anni e la tua squadra preferita di calcio è il Real Madrid.", "Informazione", MessageBoxButton.OK, MessageBoxImage.Information);
+                                MessageBox.Show($"Sei {nome} {cognome} hai {eta} anni e la tua squadra preferita di calcio è il Real Madrid.", "RIEPILOGO");
                             }
                             else if(rdbJuve.IsChecked == true)
                             {
-                                MessageBox.Show($"Sei {nome} {cognome} hai {eta} anni e la tua squadra preferita di calcio è la Juventus.", "Informazione", MessageBoxButton.OK, MessageBoxImage.Information);
+                                MessageBox.Show($"Sei {nome} {cognome} hai {eta} anni e la tua squadra preferita di calcio è la Juventus.", "RIEPILOGO");
                             }
                         }
                         else if(rdbPallavolo.IsChecked == true)
                         {
                             if (rdbTreviso.IsChecked == true)
                             {
-                                MessageBox.Show($"Sei {nome} {cognome} hai {eta} anni e la tua squadra preferita di pallavolo è il treviso volley.", "Informazione", MessageBoxButton.OK, MessageBoxImage.Information);
+                                MessageBox.Show($"Sei {nome} {cognome} hai {eta} anni e la tua squadra preferita di pallavolo è il treviso volley.", "RIEPILOGO");
                             }
                             else if (rdbSir.IsChecked == true)
                             {
-                                MessageBox.Show($"Sei {nome} {cognome} hai {eta} anni e la tua squadra preferita di pallavolo è la Sir Safety.", "Informazione", MessageBoxButton.OK, MessageBoxImage.Information);
+                                MessageBox.Show($"Sei {nome} {cognome} hai {eta} anni e la tua squadra preferita di pallavolo è la Sir Safety.", "RIEPILOGO");
                             }
                             else if (rdbModena.IsChecked == true)
                             {
-                                MessageBox.Show($"Sei {nome} {cognome} hai {eta} anni e la tua squadra preferita di pallavolo è il Modena volley.", "Informazione", MessageBoxButton.OK, MessageBoxImage.Information);
+                                MessageBox.Show($"Sei {nome} {cognome} hai {eta} anni e la tua squadra preferita di pallavolo è il Modena volley.", "RIEPILOGO");
                             }
                         }
                         else if(rdbNuoto.IsChecked == true)
                         {
                             if (rdbPhelps.IsChecked == true)
                             {
-                                MessageBox.Show($"Sei {nome} {cognome} hai {eta} anni e il tuo nuotatore preferito è Phelps.", "Informazione", MessageBoxButton.OK, MessageBoxImage.Information);
+                                MessageBox.Show($"Sei {nome} {cognome} hai {eta} anni e il tuo nuotatore preferito è Phelps.", "RIEPILOGO");
                             }
                             else if (rdbPellegrini.IsChecked == true)
                             {
-                                MessageBox.Show($"Sei {nome} {cognome} hai {eta} anni e la tua nuotatrice preferita è la Pellegrini.", "Informazione", MessageBoxButton.OK, MessageBoxImage.Information);
+                                MessageBox.Show($"Sei {nome} {cognome} hai {eta} anni e la tua nuotatrice preferita è la Pellegrini.", "RIEPILOGO");
                             }
                             else if (rdbLedecky.IsChecked == true)
                             {
-                                MessageBox.Show($"Sei {nome} {cognome} hai {eta} anni e il tuo nuotatore preferito è Ledecky.", "Informazione", MessageBoxButton.OK, MessageBoxImage.Information);
+                                MessageBox.Show($"Sei {nome} {cognome} hai {eta} anni e il tuo nuotatore preferito è Ledecky.", "RIEPILOGO");
                             }
                         }
                     }
