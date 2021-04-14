@@ -23,8 +23,6 @@ namespace AnagraficaWpf
         public MainWindow()
         {
             InitializeComponent();
-            
-            
         }
 
         private void bntSaluta_Click(object sender, RoutedEventArgs e)

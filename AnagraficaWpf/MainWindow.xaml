@@ -25,7 +25,7 @@
         <RadioButton x:Name="rdbSir" FontFamily="Tekton Pro" Content="Sir safety" HorizontalAlignment="Left" Margin="305,273,0,0" VerticalAlignment="Top" Height="17" Width="70" GroupName="pallavolo" IsEnabled="False"/>
         <RadioButton x:Name="rdbTreviso" FontFamily="Tekton Pro" Content="Treviso volley" HorizontalAlignment="Left" Margin="490,273,0,0" VerticalAlignment="Top" Height="17" Width="95" GroupName="pallavolo" IsEnabled="False"/>
         <RadioButton x:Name="rdbModena" FontFamily="Tekton Pro" Content="Modena Volley" HorizontalAlignment="Left" Margin="385,273,0,0" VerticalAlignment="Top" Height="17" Width="100" GroupName="pallavolo" IsEnabled="False"/>
-        <Label x:Name="lblNuoto" FontFamily="Tekton Pro" Content="Inseri sci il tuo nuotatore preferito " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="305,304,0,0" IsEnabled="False"/>
+        <Label x:Name="lblNuoto" FontFamily="Tekton Pro" Content="Inserisci il tuo nuotatore preferito " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="305,304,0,0" IsEnabled="False"/>
         <RadioButton x:Name="rdbPhelps" Content="Phelps" FontFamily="Tekton Pro" HorizontalAlignment="Left" Margin="305,350,0,0" VerticalAlignment="Top" Height="17" Width="70" GroupName="Nuoto" IsEnabled="False"/>
         <RadioButton x:Name="rdbPellegrini" Content="Pellegrini" FontFamily="Tekton Pro" HorizontalAlignment="Left" Margin="490,350,0,0" VerticalAlignment="Top" Height="17" Width="80" GroupName="Nuoto" IsEnabled="False"/>
         <RadioButton x:Name="rdbLedecky" Content="Ledecky" FontFamily="Tekton Pro" HorizontalAlignment="Left" Margin="385,350,0,0" VerticalAlignment="Top" Height="17" Width="85" GroupName="Nuoto" IsEnabled="False"/>
